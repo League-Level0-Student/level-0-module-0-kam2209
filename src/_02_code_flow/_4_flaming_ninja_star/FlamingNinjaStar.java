@@ -33,7 +33,7 @@ while(count<1) {
 
 			   // TURN LEFT      Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 			rob.turn(-40);
-	
+	rob.setPenColor(Color.red);
 			   // DRAW FLAME     Move the robot the distance in the variable flameSize
 			rob.move(flameSize);
 			
@@ -42,9 +42,13 @@ while(count<1) {
 			
 				//               Move the robot the distance in the variable flameSize (again)
 			
+			rob.move(flameSize);
 			   // TURN RIGHT     Turn the robot 64 degrees to the right
-			
+			rob.turn(64);
 				// MOVE         Move the robot the distance in the variable baseSize
+			rob.setPenColor(Color.black);
+			
+			rob.move(baseSize);
 		
 				//  INCREASE COUNT. Increase the count by 1
 		

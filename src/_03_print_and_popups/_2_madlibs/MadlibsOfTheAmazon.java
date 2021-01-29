@@ -7,16 +7,21 @@ public class MadlibsOfTheAmazon {
 	public static void main(String[] args) {
 		// Put this sentence in a pop up:
 		String prompt =  "If you find yourself having to cross a piranha-infested river, here's how to do it...";
-		
+ JOptionPane.showMessageDialog(null, prompt);		
 		// Get the player to enter an adjective
+ String Adjective=JOptionPane.showInputDialog("Enter A Adjective");
 
 		// Get the player to enter a type of liquid
+  String Liquid=JOptionPane.showInputDialog("Enter A Liquid");
 
 		// Get the player to enter a body part
+  String body_part=JOptionPane.showInputDialog("Enter A Body_Part");
 
 		// Get the player to enter a verb
+ String verb=JOptionPane.showInputDialog("Enter A Verb");
 
 		// Get the player to enter a place
+ String place=JOptionPane.showInputDialog("Enter A Place");
 
 		// The story below has has been written as a group of Strings joined together by + signs.
 		// The story contains place holders, indicated by [** **] which you need to replace with

@@ -35,8 +35,8 @@ public class QuizGame {
         	score = score + 1;
         	}
         
-        String answer2 = JOptionPane.showInputDialog(null, "whats your favorite food");
-        if (answer.equals("steak")) {
+        String answer2 = JOptionPane.showInputDialog(null, "whats your favorite number");
+        if (answer.equals("10")) {
         	score = score + 1;
         }
         

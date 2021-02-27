@@ -35,7 +35,7 @@ public class AwesomeOrNot {
 	
 	 JOptionPane.showMessageDialog(null, answer +" Is Awesome!");
 	
-	}
+	}    //Hi
 	
 		// 6. If your variable is  1
 	if (random==1) {
